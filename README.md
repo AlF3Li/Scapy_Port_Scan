@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-%20Finalizado-yellow" alt="Status">
-  <img src="https://img.shields.io/github/license/rm552529/Scapy_Port_Scan/blob/main/LICENSE" alt="Licença">
+  <img src="https://img.shields.io/github/license/rm552529/Scapy_Port_Scan" alt="Licença">
   <img src="https://img.shields.io/github/issues/seu-usuario/seu-repositorio" alt="Issues">
 </p>
 
