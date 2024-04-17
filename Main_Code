@@ -1,32 +1,39 @@
 # Utilizar caso esteja no kali:
-#!/usr/bin/python
 from scapy.all import *
+import socket
+
+def get_service(port):
+    try:
+        service = socket.getservbyport(port)
+        return service
+    except:
+        return "Desconhecido"
 
 def scan_ports(target, ports, timeout=1):
-    open_ports = []
+    open_ports = {}
     for port in ports:
-       
+        # Envia o pacote TCP SYN
         packet = IP(dst=target)/TCP(dport=port, flags="S")
         response = sr1(packet, timeout=timeout, verbose=False)
 
+        # Verifica se a resposta é um pacote TCP SYN/ACK
         if response and response.haslayer(TCP) and response[TCP].flags == 18:
-            open_ports.append(port)
+            service = get_service(port)
+            open_ports[port] = service
     return open_ports
 
 def main():
     firewall = "99.99.99.254"
-    ports = range(1, 1001) 
+    ports = range(1, 1024)
 
     open_ports = scan_ports(firewall, ports)
 
     if open_ports:
-        print("Portas abertas no firewall {}: {}".format(firewall, open_ports))
+        print("Portas abertas no firewall {}:".format(firewall))
+        for port, service in open_ports.items():
+            print("Porta {}: {}".format(port, service))
     else:
         print("Nenhuma porta aberta encontrada no firewall {}.".format(firewall))
-
-if __name__ == "__main__":
-    main()
-
 
 if __name__ == "__main__":
     main()
