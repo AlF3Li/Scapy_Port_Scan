@@ -31,7 +31,7 @@ firewall = "99.99.99.254"
 ports = range(1, 1024)
 
 ## _LICENÇA_ 📃
-LINK da Licença da autenticidade do desenvolvedor à seguir: [LICENÇA](LICENSE)
+LINK da Licença da autenticidade da ferramenta à seguir: [LICENÇA](LICENSE)
 
 ## _CONTATO_ ☎️
 Entre em contato comigo através do EMAIL:
