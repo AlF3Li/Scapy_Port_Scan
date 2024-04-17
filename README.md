@@ -26,6 +26,8 @@ Ferramenta desenvolvida a pedido do Professor Samuel Almeida, mais conhecido com
 LINK do Código da ferramenta à seguir: [Scapy Port Scan](Main_Code)
 
 ## _LICENÇA_
+LINK da licença da autenticidade do desenvolvedor à seguir: [LICENÇA](LICENÇA)
 
 ## _CONTATO_
-
+Entre em contato comigo através do EMAIL:
+- rm552529@fiap.com.br
