@@ -15,7 +15,7 @@
 - [INTRODUÇÃO](#introdução-)
 - [CÓDIGO](#código-)
 - [LICENÇA](#licença-)
-- [CONTATO](#contato-)
+- [CONTATO](#contato-%EF%B8%8F)
 
 
 ## _INTRODUÇÃO_ 📖
