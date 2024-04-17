@@ -11,16 +11,21 @@
   <img src="https://img.shields.io/github/issues/seu-usuario/seu-repositorio" alt="Issues">
 </p>
 
-## ÍNDICE
+## _ÍNDICE_
 - [INTRODUÇÃO](#introdução)
-- [USO](#uso)
-- [LICENÇA](LICENSE)
+- [CÓDIGO](#código)
+- [LICENÇA](LICENÇA)
 - [CONTATO](#contato)
 
 
-## INTRODUÇÃO
+## _INTRODUÇÃO_
 
-Forneça instruções claras sobre como instalar e configurar seu projeto. Isso pode incluir requisitos de software, comandos de instalação e configuração, etc.
+Ferramenta desenvolvida a pedido do Professor Samuel Almeida, mais conhecido como "BUGSAM", com intuito da exploração de vulnerabilidade de portas e serviços utilizando liguagem python para o desenvolvimento pensado seguindo a biblioteca Scapy.
 
-```bash
-npm install seu-pacote
+## _CÓDIGO_
+LINK do Código da ferramenta à seguir: #MAINCODE
+
+## _LICENÇA_
+
+## _CONTATO_
+
