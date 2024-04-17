@@ -1,4 +1,5 @@
 # Utilizar caso esteja no kali:
+#!/usr/bin/python
 from scapy.all import *
 import socket
 
