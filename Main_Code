@@ -12,11 +12,9 @@ def get_service(port):
 def scan_ports(target, ports, timeout=1):
     open_ports = {}
     for port in ports:
-        # Envia o pacote TCP SYN
         packet = IP(dst=target)/TCP(dport=port, flags="S")
         response = sr1(packet, timeout=timeout, verbose=False)
 
-        # Verifica se a resposta é um pacote TCP SYN/ACK
         if response and response.haslayer(TCP) and response[TCP].flags == 18:
             service = get_service(port)
             open_ports[port] = service
