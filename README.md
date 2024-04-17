@@ -14,7 +14,7 @@
 ## Índice
 - [INTRODUÇÃO](#INTRODUÇÃO)
 - [Uso](#uso)
-- [Licença](#LICENSE)
+- [Licença](LICENSE)
 - [Contato](#contato)
 
 
