@@ -14,7 +14,7 @@
 ## _ÍNDICE_
 - [INTRODUÇÃO](#introdução)
 - [CÓDIGO](#código)
-- [LICENÇA](LICENÇA)
+- [LICENÇA](#licença)
 - [CONTATO](#contato)
 
 
