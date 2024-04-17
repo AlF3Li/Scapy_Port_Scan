@@ -25,6 +25,11 @@ Ferramenta desenvolvida a pedido do Professor Samuel Almeida, mais conhecido com
 ## _CÓDIGO_ 🆘
 LINK do Código da ferramenta à seguir: [Scapy Port Scan](Main_Code)
 
+Altere o IP e o range de portas do trecho abaixo para as de sua preferência e adicione novamente ao código:  
+>def main():
+firewall = "99.99.99.254"
+ports = range(1, 1024)
+
 ## _LICENÇA_ 📃
 LINK da Licença da autenticidade do desenvolvedor à seguir: [LICENÇA](LICENSE)
 
