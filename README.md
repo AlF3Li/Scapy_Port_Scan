@@ -2,20 +2,20 @@
 <h1 align="center">Scapy Port Scanner</h1>
 
 <p align="center">
-  Ferramenta para Scan de portas e Serviços de rede.
+ Ferramenta para Scan de portas e Serviços de rede abertas.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-%20Finalizado-yellow" alt="Status">
-  <img src="https://img.shields.io/github/license/seu-usuario/seu-repositorio" alt="Licença">
+  <img src="https://img.shields.io/github/license/rm552529/LICENSE" alt="Licença">
   <img src="https://img.shields.io/github/issues/seu-usuario/seu-repositorio" alt="Issues">
 </p>
 
-## Índice
-- [INTRODUÇÃO](#INTRODUÇÃO)
-- [Uso](#uso)
-- [Licença](LICENSE)
-- [Contato](#contato)
+## ÍNDICE
+- [INTRODUÇÃO](#introdução)
+- [USO](#uso)
+- [LICENÇA](LICENSE)
+- [CONTATO](#contato)
 
 
 ## INTRODUÇÃO
