@@ -2,7 +2,7 @@
 <h1 align="center">Scapy Port Scanner</h1>
 
 <p align="center">
- Ferramenta para Scan de portas e Serviços de rede abertas.
+ Ferramenta opensource desenvolvida para Scan de portas e Serviços de redes abertas.
 </p>
 
 <p align="center">
