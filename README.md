@@ -12,10 +12,10 @@
 </p>
 
 ## _ÍNDICE_
-- [INTRODUÇÃO](#introdução)
-- [CÓDIGO](#código)
-- [LICENÇA](#licença)
-- [CONTATO](#contato)
+- [INTRODUÇÃO](#introdução📖)
+- [CÓDIGO](#código🆘)
+- [LICENÇA](#licença📃)
+- [CONTATO](#contato☎️)
 
 
 ## _INTRODUÇÃO_ 📖
