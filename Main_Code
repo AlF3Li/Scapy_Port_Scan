@@ -2,6 +2,10 @@
 #!/usr/bin/python
 from scapy.all import *
 import socket
+from pyfiglet import Figlet
+
+f = Figlet(font='slant')
+print(f.renderText('Scapy Port Scanner'))
 
 def get_service(port):
     try:
